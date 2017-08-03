@@ -4,17 +4,93 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>DAAC Velo - Development</title>
+    <link rel="stylesheet" href="assets/style/css/flexboxgrid.css">
+    <link rel="stylesheet" href="assets/style/css/normalize.css">
+    <link rel="stylesheet" href="assets/style/css/slick.css">
+    <link rel="stylesheet" href="assets/style/css/main.css">
 </head>
 <body>
+<main class="container wrapper">
+    <div class="center-xs row">
+        <header class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </header>
 
-<header class="top-header">
-    <div class="container">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <nav class="top-navigation desktop">
+            <div class="container">
+                <ul class="row center-md">
+                    <li><a href="#">главная</a></li>
+                    <li><a href="#">новости</a></li>
+                    <li><a href="#">оплата и доставка</a></li>
+                    <li><a href="#">гарантия</a></li>
+                    <li><a href="#">сервис</a></li>
+                    <li><a href="#">о компании</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="top-navigation mobile">
+            <div class="container">
+                <ul class="row between-md">
+                    <li><a href="#">главная</a></li>
+                    <li><a href="#">новости</a></li>
+                    <li><a href="#">оплата и доставка 2</a></li>
+                    <li><a href="#">гарантия</a></li>
+                    <li><a href="#">сервис</a></li>
+                    <li><a href="#">о компании</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section class="top-slider">
+            <div class="container">
+                <div class="row middle-sm">
+                    <div class="slider-title col-md-3">
+                        <span>Бренды</span>
+                    </div>
+                    <div class="slider slick col-md-9 row middle-lg">
+                        <!--TODO сделать один размер для всех изображений в слайдере-->
+                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/Giant_logo.png" alt=""></a></div>
+                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/shimano_logo.jpg" alt=""></a></div>
+                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/Cube_Logo.png" alt=""></a></div>
+                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/powerslide-logo.jpg" alt=""></a></div>
+                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/powerslide-logo.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-slider">
+            <div class="container">
+                <div class="row">
+                    <div class="slider-sidebar col-md-3"></div>
+                    <div class="slider slick row col-md-9">
+                        <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
+                        <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                        <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
+                        <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-</header>
+</main>
+
+<!--TODO Подключить библиотеки локально-->
+<script src="assets/javascript/jquery.js"></script>
+<script src="assets/javascript/slick.js"></script>
+<script src="assets/javascript/skrollr.js"></script>
+<script src="assets/javascript/common.js"></script>
 
 </body>
 </html>
