@@ -1,0 +1,26 @@
+{
+  "name": "daac_velo_frontend",
+  "version": "1.0.0",
+  "description": "development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saykle",
+  "license": "ISC",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "slick-carousel": "1.6.0",
+    "font-awesome": "^4.7.0",
+    "animate-css-optim": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saykle-developer/velo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saykle-developer/velo/issues"
+  },
+  "homepage": "https://github.com/saykle-developer/velo#readme",
+  "devDependencies": {}
+}
