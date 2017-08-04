@@ -13,9 +13,15 @@
     }
   }
   &.desktop{
-
+    display: block;
+    @media @mobile {
+      display: none;
+    }
   }
   &.mobile{
-
+    display: none;
+    @media @mobile {
+      display: block;
+    }
   }
 }
