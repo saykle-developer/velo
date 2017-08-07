@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="assets/style/css/normalize.css">
     <link rel="stylesheet" href="assets/style/css/slick.css">
     <link rel="stylesheet" href="assets/style/css/main.css">
+    <!--Fonts TODO заменить шрифты на локаьные (скачать)-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
+<header class="main-header">
+
+</header>
 <main class="container wrapper">
-    <div class="center-xs row">
-        <header class="top-header">
+    <div class="row">
+        <header class="top-header col-md-12">
             <div class="container">
-                <div class="row">
+                <div class="row center-md">
                     <div class="col-md-4"></div>
                     <div class="col-md-4"></div>
                     <div class="col-md-4"></div>
@@ -50,106 +55,198 @@
                 </ul>
             </div>
         </nav>
-
-
         <section class="top-slider">
             <div class="container">
                 <div class="row middle-sm">
-                    <div class="slider-title col-md-3">
+                    <!--<div class="slider-title col-md-3">
                         <span>Бренды</span>
-                    </div>
-                    <div class="slider slick col-md-9 row middle-lg">
-                        <!--TODO сделать один размер для всех изображений в слайдере-->
-                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/Giant_logo.png" alt=""></a></div>
-                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/shimano_logo.jpg" alt=""></a></div>
-                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/Cube_Logo.png" alt=""></a></div>
-                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/powerslide-logo.jpg" alt=""></a></div>
-                        <div class="partner-slide-element col-sm-3"><a href="#"><img src="img/logo/powerslide-logo.jpg" alt=""></a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="main-slider">
-            <div class="container">
-                <div class="row">
-                    <div class="slider-sidebar sidebar col-md-3"></div>
-                    <div class="slider slick row col-md-9">
-                        <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
-                        <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
-                        <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
-                        <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                    </div>-->
+                    <div class="slider slick col-md-12 row middle-sm">
+                        <!--TODO сделать один размер для всех изображений в слайдере, найти качественные-->
+                        <div class="partner-slide-element col-sm-2">
+                            <a href="#"><img src="img/logo/Giant_logo.png" alt=""></a>
+                        </div>
+                        <div class="partner-slide-element col-sm-2">
+                            <a href="#"><img src="img/logo/shimano_logo.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-slide-element col-sm-2">
+                            <a href="#"><img src="img/logo/Cube_Logo.png" alt=""></a>
+                        </div>
+                        <div class="partner-slide-element col-sm-2">
+                            <a href="#"><img src="img/logo/powerslide-logo.jpg" alt=""></a>
+                        </div>
+                        <div class="partner-slide-element col-sm-2">
+                            <a href="#"><img src="img/logo/Scott_logo.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="col-md-3 sidebar">
+        </div>
+        <div class="col-md-9">
+            <section class="main-slider">
+                <div class="container">
+                    <div class="row">
+                        <div class="slider slick row col-md-9">
+                            <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
+                            <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                            <div class="main-slide"><img src="img/velo-banner-1.jpg" alt=""></div>
+                            <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                            <div class="main-slide"><img src="img/velo-banner-2.jpg" alt=""></div>
+                        </div>
+                        <ul class="slider-dots row"></ul>
 
-        <section class="categories">
-            <div class="container">
-                <div class="row">
-                    <div class="slider-sidebar sidebar col-md-3"></div>
-                    <div class="row category-list col-md-9">
-                        <h2 class="section-title"></h2>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="category-list col-md-9">
+                            <h2 class="section-title start-sm">Типы велосипедов</h2>
+                            <div class="row">
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
                                     <img src="img/category/overlay/bike-overlay-mountain.png" alt="">
                                 </span>
-                                <h3 class="category-name">горные</h3>
-                                <img src="img/category/bike-mountain.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                                        <span class="category-count">19</span>
+                                        <h3 class="category-name">горные</h3>
+                                        <img src="img/category/bike-mountain.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
                                     <img src="img/category/overlay/bike-overlay-baby.png" alt="">
                                 </span>
-                                <h3 class="category-name">детские</h3>
-                                <img src="img/category/bike-baby.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                                        <span class="category-count">11</span>
+                                        <h3 class="category-name">детские</h3>
+                                        <img src="img/category/bike-baby.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
-                                    <img src="img/category/overlay/bike-overlay-mountain.png" alt="">
+                                    <img src="img/category/overlay/bike-overlay-lady.png" alt="">
                                 </span>
-                                <h3 class="category-name">женские</h3>
-                                <img src="img/category/bike-mountain.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                                        <span class="category-count">8</span>
+                                        <h3 class="category-name">женские</h3>
+                                        <img src="img/category/bike-lady.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
-                                    <img src="img/category/overlay/bike-overlay-mountain.png" alt="">
+                                    <img src="img/category/overlay/bike-overlay-bmx.png" alt="">
                                 </span>
-                                <h3 class="category-name">Bmx/Street</h3>
-                                <img src="img/category/bike-mountain.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                                        <span class="category-count">12</span>
+                                        <h3 class="category-name">Bmx/Street</h3>
+                                        <img src="img/category/bike-bmx.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
-                                    <img src="img/category/overlay/bike-overlay-mountain.png" alt="">
+                                    <img src="img/category/overlay/bike-overlay-street.png" alt="">
                                 </span>
-                                <h3 class="category-name">Городские</h3>
-                                <img src="img/category/bike-mountain.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-4 category">
-                            <a href="#">
+                                        <span class="category-count">16</span>
+                                        <h3 class="category-name">Городские</h3>
+                                        <img src="img/category/bike-street.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
                                 <span class="category-overlay">
-                                    <img src="img/category/overlay/bike-overlay-mountain.png" alt="">
+                                    <img src="img/category/overlay/bike-overlay-road.png" alt="">
                                 </span>
-                                <h3 class="category-name">Дорожные</h3>
-                                <img src="img/category/bike-mountain.jpg" alt="">
-                            </a>
+                                        <span class="category-count">20</span>
+                                        <h3 class="category-name">Дорожные</h3>
+                                        <img src="img/category/bike-road.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="category-list col-md-9">
+                            <h2 class="section-title start-sm">Другой транспорт</h2>
+                            <div class="row">
+                                <div class="col-md-4 category">
+                                    <a href="#">
+                                <span class="category-overlay">
+                                    <img src="img/category/overlay/roller-overlay.png" alt="">
+                                </span>
+                                        <span class="category-count">8</span>
+                                        <h3 class="category-name">Роликовые коньки</h3>
+                                        <img src="img/category/roller.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
+                                <span class="category-overlay">
+                                    <img src="img/category/overlay/samokat-overlay.png" alt="">
+                                </span>
+                                        <span class="category-count">10</span>
+                                        <h3 class="category-name">Самокаты</h3>
+                                        <img src="img/category/samokat.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
+                                <span class="category-overlay">
+                                    <img src="img/category/overlay/skateboard-overlay.png" alt="">
+                                </span>
+                                        <span class="category-count">8</span>
+                                        <h3 class="category-name">Скейтборды</h3>
+                                        <img src="img/category/skateboard.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="category-list col-md-9">
+                            <h2 class="section-title start-sm">Аксессуары и компоненты</h2>
+                            <div class="row">
+                                <div class="col-md-4 category">
+                                    <a href="#">
+                                <span class="category-overlay">
+                                    <img src="img/category/overlay/components-overlay.png" alt="">
+                                </span>
+                                        <span class="category-count">19</span>
+                                        <h3 class="category-name">Компоненты</h3>
+                                        <img src="img/category/components.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 category">
+                                    <a href="#">
+                                <span class="category-overlay">
+                                    <img src="img/category/overlay/accesories-overlay.png" alt="">
+                                </span>
+                                        <span class="category-count">23</span>
+                                        <h3 class="category-name">Аксессуары</h3>
+                                        <img src="img/category/accesories.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </main>
+
 
 <!--TODO Подключить библиотеки локально-->
 <script src="assets/javascript/jquery.js"></script>

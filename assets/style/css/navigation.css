@@ -1,0 +1,8 @@
+/*
+================= navigation ============================
+*/
+.top-navigation ul li a {
+  border: 1px solid #eeeeee;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}

@@ -6,15 +6,17 @@ $(document).ready(function () {
        dots: false,
        infinite: true,
        autoplay: true,
-       speed: 1000
+       speed: 800
    });
     $('.main-slider .slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots: false,
+        dots: true,
         infinite: true,
         autoplay: true,
-        speed: 1000
+        speed: 1000,
+        dotsClass: 'slider-dots',
+        adaptiveHeight: false
     });
 });

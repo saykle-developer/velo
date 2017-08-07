@@ -1,6 +1,9 @@
 /*
 ================= header ============================
 */
-header {
+header.main-header {
   height: 200px;
+  background: linear-gradient(to right, #57995e 0%, #adcdb0 51%, rgba(240, 246, 240, 0) 91%, rgba(255, 255, 255, 0) 100%) no-repeat 0%, url(../../../img/header-bg.jpg) 100% 40% no-repeat;
+  -webkit-background-size: 100%, 50%;
+  background-size: 100%, 50%;
 }
