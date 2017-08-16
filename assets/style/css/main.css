@@ -74,6 +74,9 @@ header.main-header {
 /*
 ================= body ============================
 */
+body {
+  overflow-x: hidden;
+}
 body .wrapper {
   margin: 0 auto;
 }
